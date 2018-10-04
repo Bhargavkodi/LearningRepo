@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="Gmail Suite">
+         
+  <test name="flipkart">
+	 <classes>
+	   <class name="NewLearn.NewTest"/>
+	 </classes>
+   </test>
+   
+</suite>
