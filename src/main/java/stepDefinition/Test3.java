@@ -24,6 +24,7 @@ public class Test3 extends TestBase {
 	@When("^User Navigate to LogIn Page$")
 	public void user_Navigate_to_LogIn_Page() throws Throwable {
 		driver.get(Loginurl);
+		log.info("Successfully landed login page");
 		Thread.sleep(4000);
 	}
 

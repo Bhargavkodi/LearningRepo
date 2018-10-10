@@ -5,10 +5,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class TestBase {
 	
@@ -46,6 +50,13 @@ public static void initialization(){
 	}
 	
 	driver.manage().window().fullscreen();
+	Capabilities cap = ((RemoteWebDriver) driver).getCapabilities();
+    String BrowserName = cap.getBrowserName().toLowerCase();
+    System.out.println("Opened Browser  ----> " + BrowserName);
+    String os = cap.getPlatform().toString();
+    System.out.println("System OS  ----> " + os);
+    String ver = cap.getVersion().toString();
+    System.out.println("Browser version is  ----> " + ver);
 	driver.manage().deleteAllCookies();
 	driver.manage().timeouts().pageLoadTimeout(Integer.valueOf(prop.getProperty("PAGE_LOAD_TIMEOUT")), TimeUnit.SECONDS);
 	driver.manage().timeouts().implicitlyWait(Integer.valueOf(prop.getProperty("IMPLICIT_WAIT")), TimeUnit.SECONDS);

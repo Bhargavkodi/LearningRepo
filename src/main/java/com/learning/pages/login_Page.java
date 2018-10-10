@@ -35,7 +35,6 @@ public class login_Page extends TestBase {
 			    
 		}
 		
-			
 		public boolean validateCRMImage(){
 			return pannaLogo.isDisplayed();
 		}
