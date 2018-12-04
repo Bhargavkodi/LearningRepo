@@ -47,5 +47,6 @@ public class DBTest {
 		log.info("Suceessfully executed querry "+SQL);
 
 	}
+	
 
 }

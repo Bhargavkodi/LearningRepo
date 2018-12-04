@@ -17,7 +17,7 @@ public class Connection {
 
 	public Statement getStatement() throws ClassNotFoundException, SQLException {
 		try {
-			String driver = "com.mysql.jdbc.Driver";
+			String driver = "com.mysql.cj.jdbc.Driver";
 			String connection = "jdbc:mysql://play-db.mroads.com:3306/playnewdb";
 			String userName = "play";
 			String password = "P@ssw0rd123";
@@ -46,5 +46,18 @@ public class Connection {
 		getStatement().executeUpdate(query);
 
 	}
+	
+	public String getDBData(String query) throws ClassNotFoundException, SQLException {
+		ResultSet data = getStatement().executeQuery(query);
+		
+		System.out.println(data);
+		String res= null;
+		while (data.next()) {
+			res=data.getString(1) + " " + data.getString(2) + " " + data.getString(3);
+			System.out.println(data.getString(1) + " " + data.getString(2) + " " + data.getString(3));
+		}
+		return res;
+	}
+	
 
 }

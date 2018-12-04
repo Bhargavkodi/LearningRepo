@@ -9,6 +9,7 @@ public class Login {
 	By Username = By.id("yourEmail");
 	By Password = By.id("yourPwd");
 	By loginBtn = By.id("login-submit-btn");	
+	public static By w1 = By.id("yourPwd");
 	public Login(WebDriver driver) {
 		this.driver=driver;
 	}

@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class TestBase {
+ public class TestBase {
 	
 	public static WebDriver driver;
 	public static Properties prop;
@@ -31,7 +31,22 @@ public class TestBase {
 			e.printStackTrace();
 		}
 
-}
+	}
+	
+	
+//	static{
+//		try {
+//			prop = new Properties();
+//			FileInputStream ip = new FileInputStream("/Users/ethirajp/eclipse-workspace1/NewProject/src/main/java/com/learning/config/config.properties");
+//			prop.load(ip);
+//		} catch (FileNotFoundException e) {
+//			e.printStackTrace();
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//
+//	}
+	
 	
 
 

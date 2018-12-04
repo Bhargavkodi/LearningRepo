@@ -1,21 +1,9 @@
-2018-10-09 18:20:40,336  INFO [main] PannaSchedule:42 - Opened Browser  ----> chrome
-2018-10-09 18:20:40,339  INFO [main] PannaSchedule:44 - System OS  ----> MAC
-2018-10-09 18:20:40,339  INFO [main] PannaSchedule:46 - Browser version is  ----> 69.0.3497.100
-2018-10-09 18:20:44,012  INFO [main] PannaSchedule:65 - URL is https://app.panna.ai/panna/#/login
-2018-10-09 18:20:47,014  INFO [main] PannaSchedule:78 - Successfully landed -----> https://app.panna.ai/panna/#/login
-2018-10-09 18:20:47,022  INFO [main] PannaSchedule:79 - Paññã(panya)
-2018-10-09 18:20:47,143  INFO [main] PannaSchedule:83 - Successfully entered uname -----> sampleuser@yopmail.com
-2018-10-09 18:20:47,194  INFO [main] PannaSchedule:87 - Successfully entered pwd -----> test
-2018-10-09 18:20:52,293  INFO [main] PannaSchedule:94 - Moved to OnDemand Interview Page -----> https://app.panna.ai/panna/#/on-demand-interview
-2018-10-09 18:20:52,709  INFO [main] PannaSchedule:95 - Paññã(panya)
-2018-10-09 18:20:59,817  INFO [main] PannaSchedule:99 - Schedule an Interview.
-2018-10-09 18:20:59,817  INFO [main] PannaSchedule:100 - Now Landed on schedule page
-2018-10-09 18:21:04,124  INFO [main] PannaSchedule:111 - Successfully entered Type 0f interview -----> custom
-2018-10-09 18:21:11,264  INFO [main] PannaSchedule:115 - Successfully selected Type 0f interview -----> [[ChromeDriver: chrome on MAC (f13762323b713650afb97b071356daea)] -> id: Custom]
-2018-10-09 18:21:16,542  INFO [main] PannaSchedule:137 - Successfully entered RID -----> MROADS-CSM: SCRUM MASTER
-2018-10-09 18:21:23,734  INFO [main] PannaSchedule:141 - Successfully selected Job Position -----> [[ChromeDriver: chrome on MAC (f13762323b713650afb97b071356daea)] -> id: MROADS-CSM: SCRUM MASTER]
-2018-10-09 18:21:23,841  INFO [main] PannaSchedule:147 - Successfully entered expiry -----> 1
-2018-10-09 18:21:28,844  INFO [main] PannaSchedule:152 - Interviews to be scheduled for 17 candidates
-2018-10-09 18:21:31,669  INFO [main] PannaSchedule:178 - Successfully entered email -----> bhargav@yopmail.com
-2018-10-09 18:21:39,754  INFO [main] PannaSchedule:178 - Successfully entered email -----> bhargav2@yopmail.com
-2018-10-09 18:21:47,854  INFO [main] PannaSchedule:178 - Successfully entered email -----> bhargav3@yopmail.com
+2018-12-04 14:10:07,038  INFO [main] initialise:55 - chrome
+2018-12-04 14:10:07,233  INFO [main] initialise:64 - Opened Browser  ----> chrome
+2018-12-04 14:10:07,237  INFO [main] initialise:66 - System OS  ----> MAC
+2018-12-04 14:10:07,238  INFO [main] initialise:68 - Browser version is  ----> 70.0.3538.110
+2018-12-04 14:10:14,989  INFO [main] initialise:173 - Handling tab:> 0
+2018-12-04 14:10:17,008  INFO [main] initialise:173 - Handling tab:> 1
+2018-12-04 14:10:19,034  INFO [main] initialise:173 - Handling tab:> 2
+2018-12-04 14:10:21,058  INFO [main] initialise:173 - Handling tab:> 3
+2018-12-04 14:10:23,083  INFO [main] initialise:173 - Handling tab:> 4

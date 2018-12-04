@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "/Users/ethirajp/eclipse-workspace1/NewProject/Feature/Login_TestFeature"
+		features = ("/Users/ethirajp/eclipse-workspace1/NewProject/Feature/Login_TestFeature")
 		,glue={"stepDefinition"}
 		,monochrome = true
 		,format= {"pretty"}
